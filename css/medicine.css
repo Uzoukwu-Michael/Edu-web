@@ -1,0 +1,237 @@
+:root {
+    --primary: #2C3E50;
+    --secondary: #E74C3C;
+    --accent: #3498DB;
+    --background: #F8F9FA;
+    --text: #2C3E50;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-link {
+    color: var(--primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--secondary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.medicine-hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(231, 76, 60, 0.9)),
+                url('/images/Department\ of\ Medicine1.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8rem 0;
+    margin-top: 76px;
+}
+
+.floating-apply-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background: var(--secondary);
+    color: white;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+    transition: all 0.3s ease;
+}
+
+.floating-apply-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+    color: white;
+}
+
+.program-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.program-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.facility-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.facility-card img {
+    transition: all 0.3s ease;
+}
+
+.facility-card:hover img {
+    transform: scale(1.1);
+}
+
+.facility-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    padding: 1.5rem;
+    color: white;
+}
+
+.stats-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.research-card {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.apply-section {
+    background: linear-gradient(45deg, var(--secondary), var(--accent));
+    color: white;
+    padding: 4rem 0;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: var(--secondary);
+}
+
+.qualification-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.qualification-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-apply {
+    background-color: var(--secondary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-apply:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px);
+    color: white;
+}
+
+.faculty-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-10px);
+}
+
+.faculty-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: var(--secondary);
+    padding-left: 10px;
+}

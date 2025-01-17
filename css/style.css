@@ -1,0 +1,149 @@
+:root {
+    --primary: #2C3E50;
+    --secondary: #27AE60;
+    --accent: #E74C3C;
+    --background: #F8F9FA;
+    --text: #2C3E50;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-link {
+    color: var(--primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--secondary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)),
+                url('/images/a\ girl\ smiling\ in\ the\ school\ website.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8rem 0;
+}
+
+.btn-custom {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.btn-primary:hover {
+    background-color: #219a52;
+    border-color: #219a52;
+    transform: translateY(-3px);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.department-card {
+    height: 100%;
+    background: linear-gradient(45deg, #fff, #f8f9fa);
+}
+
+.requirements-list li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.requirements-list li:before {
+    content: "✓";
+    color: var(--secondary);
+    position: absolute;
+    left: 0;
+}
+
+.contact-section {
+    background-color: #fff;
+}
+
+.form-control {
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.cta-section {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+}
+
+footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: var(--secondary);
+    padding-left: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--secondary);
+    transform: translateY(-3px);
+}
+#formError {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 10px;
+}

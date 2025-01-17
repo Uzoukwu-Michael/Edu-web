@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Eastern Community College Of Continuing Health Education</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+   
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ECCCHE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="medicine.html">Medicine</a></li>
+                            <li><a class="dropdown-item" href="agriculture.html">Agriculture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="requirements.html">Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4" data-aos="fade-up">Welcome to Eastern Community College Of Continuing Health Education</h1>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Shaping Tomorrow's Leaders in Medicine and Agriculture</p>
+            <a href="#programs" class="btn btn-primary btn-custom" data-aos="fade-up" data-aos-delay="200">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">About Us</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="/images/about-school image.webp" alt="About Us" class="img-fluid rounded-3 mb-4">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4">Excellence in Education</h3>
+                    <p class="lead">We are committed to providing world-class education in Medicine and Agriculture, preparing students for successful careers in their chosen fields.</p>
+                    <p>Our institution combines traditional academic excellence with modern teaching methodologies, ensuring our students receive the best possible education.</p>
+                    <a href="about.html" class="btn btn-primary btn-custom mt-3">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="py-5 bg-light" id="programs">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Our Programs</h2>
+            <div class="row g-4">
+                <!-- Medicine Department -->
+                <div class="col-lg-6" data-aos="fade-up" id="medicine">
+                    <div class="card department-card">
+                        <img src="/images/Department of Medicine1.jpeg" class="card-img-top" alt="Medicine Department">
+                        <div class="card-body">
+                            <h3 class="card-title">Department of Medicine</h3>
+                            <p class="card-text">Our medical program offers comprehensive training in modern medicine, combining theoretical knowledge with practical experience.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>State-of-the-art facilities</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Experienced faculty</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Clinical rotations</li>
+                            </ul>
+                            <button class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#applyModal" data-aos="fade-up" data-aos-delay="200">
+                                Apply Now
+                                
+                             </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agriculture Department -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" id="agriculture">
+                    <div class="card department-card">
+                        <img src="/images/Department of agricture.jpeg" class="card-img-top" alt="Agriculture Department">
+                        <div class="card-body">
+                            <h3 class="card-title">Department of Agriculture</h3>
+                            <p class="card-text">Our agriculture program focuses on sustainable farming practices and modern agricultural technologies.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Practical field training</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Research opportunities</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Modern equipment</li>
+                            </ul>
+                            <button class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#applyModal" data-aos="fade-up" data-aos-delay="200">
+                               Apply Now
+                               
+                            </button>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="py-5" id="requirements">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Admission Requirements</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h4 class="mb-4">Medicine Department</h4>
+                    <ul class="requirements-list">
+                        <li>High School Diploma with minimum GPA of 3.5</li>
+                        <li>Strong background in Biology and Chemistry</li>
+                        <li>Letters of recommendation</li>
+                        <li>Entrance examination scores</li>
+                        <li>Personal statement</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h4 class="mb-4">Agriculture Department</h4>
+                    <ul class="requirements-list">
+                        <li>High School Diploma with minimum GPA of 3.0</li>
+                        <li>Background in Biology and Environmental Science</li>
+                        <li>Letters of recommendation</li>
+                        <li>Personal statement</li>
+                        <li>Interview</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <form id="contactForm" action="send-message.php" method="POST">
+                        <div class="mb-3">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <select id="department" name="department" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option>Medicine</option>
+                                <option>Agriculture</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-custom">Send Message</button>
+                    </form>
+                    <div id="formError" style="color: red; display: none;"></div>
+                    
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="ps-lg-5">
+                        <h4 class="mb-4">Get in Touch</h4>
+                        <p><i class="fas fa-map-marker-alt me-3"></i> 123 Education Street, Academic City</p>
+                        <p><i class="fas fa-phone me-3"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope me-3"></i> info@aei.edu</p>
+                        <div class="social-icons mt-4">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Ready to Begin Your Journey?</h2>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Join us in shaping the future of medicine and agriculture</p>
+            <a href="#" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</a>
+
+        </div>
+    </section>
+
+
+
+    <!-- Apply now modal -->
+<!-- Modal -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="applyModalLabel">Apply Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="applyForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="department" class="form-label">Select Department</label>
+              <select class="form-select" id="department" name="department" required>
+                <option value="">Choose...</option>
+                <option value="Medicine">Medicine</option>
+                <option value="Agriculture">Agriculture</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">About Departments</h5>
+                    <p>Our departments are committed to excellence in education and research, preparing students for successful careers in medicine and agriculture.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="requirements.html">Requirements</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">Programs</h5>
+                    <ul class="footer-links">
+                    <li><a href="medicine.html">Department of Medicine</a></li>
+                        <li><a href="agriculture.html">Department of Agriculture</a></li>
+                    </ul>
+                        
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy;  © 2025 ECCCHE. All rights reserved.</p>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+       
+    </script>
+</body>
+</html>
