@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $personal_statement = htmlspecialchars($_POST['personal_statement']);
 
     // Recipient email
-    $to = "recipient@example.com"; // Replace with your email address
+    $to = "medicine@easterncommunitycollege.com"; // Replace with your email address
 
     // Email subject
     $subject = "New Application to Medicine Department";

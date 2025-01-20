@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $department = htmlspecialchars($_POST['department']);
 
     // Your email address
-    $to = "your-email@example.com"; // Replace with your email
+    $to = "info@easterncommunitycollege.com"; // Replace with your email
     $subject = "New Application Submission";
 
     // Email content

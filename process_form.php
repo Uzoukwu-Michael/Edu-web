@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Your email where the message will be sent
-    $to = "your-email@example.com"; // Replace with your actual email address
+    $to = "info@easterncommunitycollege.com"; // Replace with your actual email address
     $subject = "New Contact Form Submission";
     $body = "You have received a new message from the contact form.\n\n"
           . "Name: $name\n"
